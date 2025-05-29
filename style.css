@@ -2,10 +2,16 @@
     --vermelho-principal:#C81F1F;
     --botao-azul:#167BF7;
     --cor-de-fundo:#00030C;
+    --fonte-principal:'Jacques Francois';
 }
 body{
     background-color: var(--cor-de-fundo);
     color: var(--vermelho-principal);
+    font-family: var(--fonte-principal);
+    font-size: 22px;
+    font-weight: 400;
+    background: #001a24;
+background: linear-gradient(85deg, rgba(0, 26, 36, 1) 9%, rgba(9, 9, 121, 1) 58%, rgba(0, 212, 255, 1) 100%);
 }
 .container{
     height: 100vh;
@@ -18,4 +24,9 @@ body{
     padding: 1em;
     color: var(--cor-de-fundo);
     display: block;
+    text-decoration: none;
+}
+.container__aviso{
+    font-size: 26px;
+    color: var(--botao-azul);
 }
